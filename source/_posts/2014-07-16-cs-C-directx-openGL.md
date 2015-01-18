@@ -1,6 +1,6 @@
 ---
 layout: post
-category: .NET
+category: NET
 title:  混合语言编程：C#使用原生的Directx和OpenGL
 keywords: 混合语言编程
 tags: [C#,VC++]
