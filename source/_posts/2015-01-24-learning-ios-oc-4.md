@@ -6,7 +6,7 @@ keywords: iOS
 tags: iOS
 ---
 
-上一篇：[iOS开发入门教程之Objective-C · 常用的数据类型](http://taonull.github.io/2015/learning-ios-oc-3/)
+上一篇：[iOS开发入门教程之Objective-C · 常用的数据类型](http://zh.5long.me/2015/learning-ios-oc-3/)
 
 #前言
 本文将介绍Objective-C的内存管理，内存管理是程序设计中常见的资源管理的一部分。内存管理不是一个轻松的活，当程序抛出`EXC_BAD_ACCESS`异常时，多半是因为内存管理出问题了。Apple在iOS5推出ARC（Automatic Reference Counting， 自动引用计数）后，内存管理稍微轻松了点。

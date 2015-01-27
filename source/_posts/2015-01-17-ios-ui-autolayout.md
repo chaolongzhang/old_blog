@@ -1,6 +1,6 @@
 ---
 layout: post
-category: iOS开发
+category: iOS
 title: iOS开发入门教程外篇之自动布局Auto Layout
 keywords: Auto Layout
 tags: iOS
