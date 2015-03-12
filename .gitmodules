@@ -1,9 +1,0 @@
-[submodule ".themes/forest"]
-	path = .themes/forest
-	url = git://github.com/octothemes/forest.git
-[submodule ".themes/constant-cockles"]
-	path = .themes/constant-cockles
-	url = git://github.com/octothemes/constant-cockles.git
-[submodule ".themes/mullah-mussels"]
-	path = .themes/mullah-mussels
-	url = git://github.com/octothemes/mullah-mussels.git

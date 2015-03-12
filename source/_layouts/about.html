@@ -7,6 +7,9 @@ single: true
 <section>
   {{ content }}
 </section>
+<section>
+	{%  include custom/baiduShare.html %}
+</section>
 {% if page.nocomments != true %}
   <section>
     {% include custom/comments/duoshuo %}

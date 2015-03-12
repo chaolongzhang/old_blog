@@ -29,13 +29,14 @@ tags: iOS
 
 本系列教程内容如下：
 
-*  楔子（本文）
+*  [楔子](http://zh.5long.me/2014/learning-ios-preface/)
 *  [面向过程的Objective-c](http://zh.5long.me/2014/learning-ios-oc-1/)
 *  [面向对象的Objective-c](http://zh.5long.me/2014/learning-ios-oc-2/)
-*  常用的数据类型
-*  引用计数
-*  协议和代理
+*  [常用的数据类型](http://zh.5long.me/2015/learning-ios-oc-3/)
+*  [引用计数](http://zh.5long.me/2015/learning-ios-oc-4/)
+*  [协议](http://zh.5long.me/2015/learning-ios-oc-5/)
 *  iOS应用
+* 跋
 
 本教程将以做一个密码生成器的iOS应用来贯穿全部内容，该应用提供一个非常简单的功能：按一定的规则生成密码。
 

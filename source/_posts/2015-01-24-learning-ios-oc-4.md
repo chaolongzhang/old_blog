@@ -11,6 +11,17 @@ tags: iOS
 #前言
 本文将介绍Objective-C的内存管理，内存管理是程序设计中常见的资源管理的一部分。内存管理不是一个轻松的活，当程序抛出`EXC_BAD_ACCESS`异常时，多半是因为内存管理出问题了。Apple在iOS5推出ARC（Automatic Reference Counting， 自动引用计数）后，内存管理稍微轻松了点。
 
+本系列教程内容如下：
+
+*  [楔子](http://zh.5long.me/2014/learning-ios-preface/)
+*  [面向过程的Objective-c](http://zh.5long.me/2014/learning-ios-oc-1/)
+*  [面向对象的Objective-c](http://zh.5long.me/2014/learning-ios-oc-2/)
+*  [常用的数据类型](http://zh.5long.me/2015/learning-ios-oc-3/)
+*  [引用计数](http://zh.5long.me/2015/learning-ios-oc-4/)
+*  [协议](http://zh.5long.me/2015/learning-ios-oc-5/)
+*  iOS应用
+* 跋
+
 #引用计数
 我们已经知道对象的创建了，但是对象创建之后什么时候释放呢？最理想的就是在不再使用这个对象的时候就释放。Objective-C使用了一种引用计数的技术。当一个对象被创建后，它的引用计数是1，可以通过程序增加和减少它的引用计数，当引用计数为0的时候就可以释放该对象了。
 

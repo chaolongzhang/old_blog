@@ -6,12 +6,25 @@ keywords: iOS
 tags: iOS
 ---
 
+上一篇：[楔子](http://zh.5long.me/2014/learning-ios-preface/)
+
 #前言
 Objective-C语言是基于C语言的一种面向对象的扩展语言。Objective-C兼容C语言，也就是说，以前写的C代码在Objective-C平台下也基本可以运行，C语言用的熟练的话，Objective-C也基本了。
 
 本文将以面向过程的形式来使用Objective-C，是读者从C语言过度到Objective-C。
 
 <!--more-->
+
+本系列教程内容如下：
+
+*  [楔子](http://zh.5long.me/2014/learning-ios-preface/)
+*  [面向过程的Objective-c](http://zh.5long.me/2014/learning-ios-oc-1/)
+*  [面向对象的Objective-c](http://zh.5long.me/2014/learning-ios-oc-2/)
+*  [常用的数据类型](http://zh.5long.me/2015/learning-ios-oc-3/)
+*  [引用计数](http://zh.5long.me/2015/learning-ios-oc-4/)
+*  [协议](http://zh.5long.me/2015/learning-ios-oc-5/)
+*  iOS应用
+* 跋
 
 #新建工程
 *  启动XCode。
