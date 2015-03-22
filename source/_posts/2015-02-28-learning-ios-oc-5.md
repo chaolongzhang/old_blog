@@ -8,7 +8,7 @@ tags: iOS
 
 上一篇：[iOS开发入门教程之Objective-C · 引用计数](http://zh.5long.me/2015/learning-ios-oc-4/)
 
-#前言
+##前言
 本文将介绍Objective-C的一个重要概念——[协议（Protocols）](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithProtocols/WorkingwithProtocols.html#//apple_ref/doc/uid/TP40011210-CH11-SW1)，iOS编程将经常使用到协议。比如在iOS中经常使用到的[UITableView](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UITableView_Class/index.html#//apple_ref/doc/uid/TP40006943)就需要通过协议来设置显示数据和响应事件。所以，掌握协议对iOS编程是非常重要的。Objective-C的协议和其它面向对象语言的接口类似，当然，协议有更多的特性。
 
 <!--more-->
@@ -24,8 +24,8 @@ tags: iOS
 *  iOS应用
 * 跋
 
-#协议的申明与实现
-##简单的协议
+##协议的申明与实现
+###简单的协议
 简单的协议于其它语言的接口类似，申明一些方法，实现该协议的类将实现相应的方法，使用`@protocol`申明协议，格式如下:
 
 ```objective-c
@@ -45,7 +45,7 @@ tags: iOS
 @end
 ```
 
-<h2 id="SU">简单协议的实现</h2>
+<h3 id="SU">简单协议的实现</h3>
 可申明一个类，这个类实现某个协议，如：
 
 ```objective-c
@@ -82,7 +82,7 @@ tags: iOS
 
 申明类是使用`<协议名>`来申明这个类实现某个协议，并在实现该协议的方法。
 
-##协议的继承
+###协议的继承
 协议也可继承其它协议，最常见的就是继承`NSObject`(NSObject被分为NSObject类和NSObject协议，NSObject类实现了NSObject协议)。继承`NSObject`的协议格式如下：
 
 ```objective-c
@@ -104,10 +104,10 @@ tags: iOS
 
 任何实现DataSource协议的类也需要实现NSObject协议。
 
-##继承协议的实现
+###继承协议的实现
 同[简单协议的实现](#SU),类应该继承自`NSObject`，这样也就实现了`NSObject`协议。
 
-##协议的可选与必选方法
+###协议的可选与必选方法
 协议申明的方法可分为可选与必选方法，这点与接口不同。顾名思义，可选方法就是在实现类可以选择性的决定是否实现该方法，必选方法就必选要实现。Objective-C分别使用`@optional`和`@required`来申明可选于必选方法，格式如下：
 
 ```objective-c
@@ -139,10 +139,10 @@ tags: iOS
 @end
 ```
 
-##可选于必选协议的实现
+###可选于必选协议的实现
 同[简单协议的实现](#SU),申明为必选的就必选在类中实现，可选的方法，可以不实现。
 
-##检查可选方法是否被实现
+###检查可选方法是否被实现
 可选方法在类中可以不实现，但如果在运行时调用为实现的方法将会导致运行时异常，那么如何确定可选方法是否被实现呢？Objective-C提供了如下方式检查一个方法是否实现：
 
 ```objective-c
@@ -156,7 +156,7 @@ else
 }
 ```
 
-##实现多个协议
+###实现多个协议
 和接口类似，同一个类可以实现多个协议。格式如下：
 
 ```objective-c
@@ -165,7 +165,7 @@ else
 @end
 ```
 
-#协议的使用
+##协议的使用
 协议的使用和接口类似，创建一个实现了该协议的对象，就可以调用该协议申明的方法。例子如下：
 
 ```objective-c
@@ -185,7 +185,7 @@ for (int i = 0; i < len; ++i)
 }
 ```
 
-#结语
+##结语
 本文介绍了Objective-C的协议，iOS编程大量使用了协议，所以掌握协议是很有必要地。
 
 参考：[Working with Protocols](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/WorkingwithProtocols/WorkingwithProtocols.html#//apple_ref/doc/uid/TP40011210-CH11-SW1)

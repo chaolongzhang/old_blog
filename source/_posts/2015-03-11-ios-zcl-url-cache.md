@@ -6,14 +6,14 @@ keywords: URLCache
 tags: iOS
 ---
 
-#前言
+##前言
 iOS网络资源缓存ZCLURLCache分为上下两篇，主要介绍本人开发的一个开源iOS版网络资源缓存库ZCLURLCache，代码已托管在[GitHub](https://github.com/chaolongzhang/ZCLURLCache.git)，欢迎下载测试，若发现错误，请留言告知，不甚感激。
 
 本文介绍本人开发ZCLURLCache的历史原因、ZCLURLCache架构、ZCLURLCache使用方法。若你只打算使用这个组件而不深入了解它，那么看这篇文章就已经足够。
 
 下篇将介绍ZCLURLCache的设计细节，敬请关注。
 
-#从一个故事说起
+##从一个故事说起
 去年给某司做了个iOS APP，其中各种辛酸在此就不多说，将来有机会再说，这里只聊一聊流量的问题。话说经过日夜奋战，终于到了现场测试的阶段了，一说现场测试，还有点小激动，可以免费参观某景区 :D
 
 <!--more-->
@@ -32,7 +32,7 @@ iOS网络资源缓存ZCLURLCache分为上下两篇，主要介绍本人开发的
 
 ![smiley](/assets/images/face/smiley_011.png)
 
-#进一步思考
+##进一步思考
 在开发移动应用时应该尽量少用数据流量，其原因有三：
 
 1.  服务商太坑，流量往往很贵。
@@ -49,7 +49,7 @@ iOS网络资源缓存ZCLURLCache分为上下两篇，主要介绍本人开发的
 
 如果针对每一个资源使用一个缓存的组件的话，会使应用的体积进一步变大。有一个通用的组件也许会更实用，在iOS平台下可以使用`NSData`来存储网络资源，在使用的时候再把`NSData`还原成具体的文件。
 
-#ZCLURLCache问世
+##ZCLURLCache问世
 基于以上的思考，本人决定写一个通用的网络资源缓存组件——ZCLURLCache。ZCLURLCache是一个轻量级的网络资源缓存组件，具有如下特点：
 
 1.  使用`NSData`保存数据，可以转换成`NSData`的数据都可以存储，如图片、html、声音、视频等文件。
@@ -58,17 +58,17 @@ iOS网络资源缓存ZCLURLCache分为上下两篇，主要介绍本人开发的
 4.  使用一致的`block`返回数据，使用缓存还是下载数据是透明的。
 5.  使用MD5编码URL，确保文件不会重复。
 
-#ZCLURLCache的流程
+##ZCLURLCache的流程
 当通过某个URL获取数据时，组件的流程如下：
 
 1.  检查URL对应的数据是否在内存中有缓存，若有，直接取出数据返回，否则进入第二步。
 2.  检查URL对应的数据是否在磁盘上又缓存，若有，从磁盘上读取数据，把数据放入内存缓存，并返回数据。
 3.  联网下载URL对应的数据，下载完后分别缓存在内存和磁盘，返回数据。
 
-#ZCLURLCache架构
+##ZCLURLCache架构
 ZCLURLCache分为五个类：
 
-1.  ZCLCacheManager，缓存管理类，单例，也是时唯一一个需要在客户端代码中使用的类。
+1.  ZCLCacheManager，缓存管理类，单例，也是唯一一个需要在客户端代码中使用的类。
 2.  ZCLMemoryCache，内存缓存类，在内存中缓存数据并提供相关方法。
 3.  ZCLDiskCache，磁盘缓存类，在磁盘上缓存数据并提供相关方法。
 4.  ZCLUrlDownloader，数据下载类。
@@ -76,11 +76,11 @@ ZCLURLCache分为五个类：
 
 每个类的具体实现将在下一篇介绍。
 
-#ZCLURLCache的使用
-##获取ZCLURLCache
+##ZCLURLCache的使用
+###获取ZCLURLCache
 代码已托管在GitHub，其中包括一个图片缓存的例子，地址<https://github.com/chaolongzhang/ZCLURLCache.git>
 
-##获取URL数据
+###获取URL数据
 ZCLURLCache的使用非常简单，步骤如下：
 
 1.  拷贝上述五个类文件到项目工程下（在文件`zclcachecore`）。
@@ -98,7 +98,7 @@ imageView.image = [UIImage imageNamed:@"meplace.png"];
 }];
 ```
 
-##清空缓存
+###清空缓存
 缓存管理类（ZCLCacheManager）提供两个方法分别清空内存缓存和磁盘缓存：
 
 1.  `cleanMemoryCache`，清空内存缓存。
@@ -112,7 +112,7 @@ ZCLCacheManager* cacheManager = [ZCLCacheManager shareCacheManager];
 [cacheManager cleanDiskCache];
 ```
 
-#结语
+##结语
 `ZCLURLCache`的开发和测试耗时一个晚上和一个上午（晚上7:00-9:00，上午9:30-11:30），还要加上前期查找资料的时间。
 
 目前`ZCLURLCache`还不完善，下一步将在以下几个方面改进：
@@ -122,7 +122,7 @@ ZCLCacheManager* cacheManager = [ZCLCacheManager shareCacheManager];
 *  缓存有效机制，URL数据更新是能及时更新缓存数据。
 *  下载时返回进度信息。
 
-写的代码难免出错，欢迎下载测试，若发现错误，请告知，不甚感激。
+写的代码难免出错，欢迎下载测试，若发现错误，还请告知，不甚感激。
 
 未完待续。。。。
 
