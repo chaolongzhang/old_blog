@@ -23,8 +23,8 @@ Objective-C语言是基于C语言的一种面向对象的扩展语言。Objectiv
 *  [常用的数据类型](http://zh.5long.me/2015/learning-ios-oc-3/)
 *  [引用计数](http://zh.5long.me/2015/learning-ios-oc-4/)
 *  [协议](http://zh.5long.me/2015/learning-ios-oc-5/)
-*  iOS应用
-* 跋
+*  [OS应用](http://zh.5long.me/2015/ios-first-app/)
+* [跋](http://zh.5long.me/2015/ios-epilogue/)
 
 #新建工程
 *  启动XCode。

@@ -19,8 +19,8 @@ tags: iOS
 *  [常用的数据类型](http://zh.5long.me/2015/learning-ios-oc-3/)
 *  [引用计数](http://zh.5long.me/2015/learning-ios-oc-4/)
 *  [协议](http://zh.5long.me/2015/learning-ios-oc-5/)
-*  iOS应用
-* 跋
+*  [OS应用](http://zh.5long.me/2015/ios-first-app/)
+* [跋](http://zh.5long.me/2015/ios-epilogue/)
 
 #引用计数
 我们已经知道对象的创建了，但是对象创建之后什么时候释放呢？最理想的就是在不再使用这个对象的时候就释放。Objective-C使用了一种引用计数的技术。当一个对象被创建后，它的引用计数是1，可以通过程序增加和减少它的引用计数，当引用计数为0的时候就可以释放该对象了。

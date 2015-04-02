@@ -35,8 +35,8 @@ tags: iOS
 *  [常用的数据类型](http://zh.5long.me/2015/learning-ios-oc-3/)
 *  [引用计数](http://zh.5long.me/2015/learning-ios-oc-4/)
 *  [协议](http://zh.5long.me/2015/learning-ios-oc-5/)
-*  iOS应用
-* 跋
+*  [OS应用](http://zh.5long.me/2015/ios-first-app/)
+* [跋](http://zh.5long.me/2015/ios-epilogue/)
 
 本教程将以做一个密码生成器的iOS应用来贯穿全部内容，该应用提供一个非常简单的功能：按一定的规则生成密码。
 

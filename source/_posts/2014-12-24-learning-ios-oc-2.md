@@ -21,8 +21,8 @@ tags: iOS
 *  [常用的数据类型](http://zh.5long.me/2015/learning-ios-oc-3/)
 *  [引用计数](http://zh.5long.me/2015/learning-ios-oc-4/)
 *  [协议](http://zh.5long.me/2015/learning-ios-oc-5/)
-*  iOS应用
-* 跋
+*  [OS应用](http://zh.5long.me/2015/ios-first-app/)
+* [跋](http://zh.5long.me/2015/ios-epilogue/)
 
 #新建一个类
 *  按上一篇的方法新建一个工程。
