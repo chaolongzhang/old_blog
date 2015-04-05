@@ -1,6 +1,6 @@
 ---
 layout: post
-category: dotNet
+category: [dotNet,程序设计]
 title: 用命令行编译C#代码
 tags: [C#]
 ---

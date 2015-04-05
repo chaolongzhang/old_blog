@@ -1,6 +1,6 @@
 ---
 layout: post
-category: iOS开发入门教程
+category: [iOS,iOS开发入门教程]
 title: iOS开发入门教程 · 楔子
 keywords: iOS
 tags: iOS

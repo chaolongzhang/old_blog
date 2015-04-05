@@ -1,6 +1,6 @@
 ---
 layout: post
-category: 程序设计
+category: [软件开发,软件工艺]
 title: 敏捷技能修炼之小舵板之一：意图导向编程
 keywords: 敏捷修炼
 tags: [敏捷开发]
