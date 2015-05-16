@@ -1,0 +1,8 @@
+---
+layout: post
+category: [程序设计,算法]
+title: "404"
+comments: false
+---
+
+<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
