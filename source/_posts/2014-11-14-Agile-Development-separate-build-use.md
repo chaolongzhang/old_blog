@@ -1,6 +1,6 @@
 ---
 layout: post
-category: [软件开发,软件工艺]
+category: [软件开发,软件工艺,读书]
 title: 敏捷技能修炼之小舵板之二：分离构造和使用
 keywords: 敏捷修炼
 tags: [敏捷开发]
