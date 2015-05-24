@@ -4,4 +4,6 @@ title: "404"
 comments: false
 ---
 
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
+<div>
+<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="http://zh.5long.me" homePageName="回到我的主页（茶码话桑麻）"></script>
+</div>
