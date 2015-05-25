@@ -107,7 +107,7 @@ TSP问题中路线越短越好，适应度取值为总距离的倒数，即1/dis
 
 其中`TSP_GA_w.py`是在`TSP_GA.py`增加了一个图形界面，以比较直观地方式来看结果。`TSP_GA_w.py`和`TSP_GA.py`任选一个运行即可。
 
-代码已上传在GitHub上，下载地址：<https://github.com/chaolongzhang/tsp>
+代码已上传在GitHub上，下载地址：<https://github.com/zchlong/tsp>
 
 ###关键代码说明
 GA.py中实现遗传算法的核心代码如下：
@@ -196,7 +196,7 @@ def cross(self, parent1, parent2):
 ##结语
 本文在参考前人的基础之上，介绍了遗传算法和TSP问题，并用Python实现了算法。刚接触遗传算法，实现的效果还有很多可以优化的地方。
 
-*   本文代码及数据下载地址：<https://github.com/chaolongzhang/tsp>
+*   本文代码及数据下载地址：<https://github.com/zchlong/tsp>
 
 
 ##参考
@@ -211,4 +211,3 @@ def cross(self, parent1, parent2):
 [4]: http://zh.wikipedia.org/wiki/%E5%93%88%E5%AF%86%E9%A1%BF%E5%9B%BE
 [5]: http://www.acmerblog.com/genetic-algorithm-to-tsp-problem-5762.html
 [6]: http://oldj.net/ga-tsp/
-[]: https://github.com/taiyun/Optimization-using-R

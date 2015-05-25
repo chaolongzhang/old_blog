@@ -8,7 +8,7 @@ styles: [data-table]
 ---
 
 ##前言
-本文接着上一篇（ [iOS网络资源缓存ZCLURLCache·上篇](http://zh.5long.me/2015/ios-zcl-url-cache/)）继续介绍本人开发的一个开源iOS版网络资源缓存库ZCLURLCache，代码已托管在[GitHub](https://github.com/chaolongzhang/ZCLURLCache.git)，欢迎下载测试，若发现错误，请留言告知，不甚感激。
+本文接着上一篇（ [iOS网络资源缓存ZCLURLCache·上篇](http://zh.5long.me/2015/ios-zcl-url-cache/)）继续介绍本人开发的一个开源iOS版网络资源缓存库ZCLURLCache，代码已托管在[GitHub](https://github.com/zchlong/ZCLURLCache.git)，欢迎下载测试，若发现错误，请留言告知，不甚感激。
 
 在上一篇中主要介绍开发ZCLURLCache的历史原因、ZCLURLCache架构、ZCLURLCache使用方法。本文将介绍ZCLURLCache的设计细节。
 
@@ -122,6 +122,6 @@ ZCLUtil是一个工具类，目前只有一个功能——MD5编码。ZCLUtil的
 2.  MD5编码可确保URL与文件名一一对应，即惟一性，且文件名长度固定。
 
 ##后记
-ZCLURLCache的诞生起源于一次坑爹的测试，如今已可作为基础组件使用。如果你阅读了源代码（GitHub上可[下载](https://github.com/chaolongzhang/ZCLURLCache.git)），你会发现ZCLURLCache的代码非常简单，几乎没有多余的代码。KISS原则（Keep It Simple, Stupid）倡导在设计中应当注重简约的原则，这也是我推荐的一种实践方式。
+ZCLURLCache的诞生起源于一次坑爹的测试，如今已可作为基础组件使用。如果你阅读了源代码（GitHub上可[下载](https://github.com/zchlong/ZCLURLCache.git)），你会发现ZCLURLCache的代码非常简单，几乎没有多余的代码。KISS原则（Keep It Simple, Stupid）倡导在设计中应当注重简约的原则，这也是我推荐的一种实践方式。
 
 ZCLURLCache还存在很多不足和缺陷（上一篇已经提到过），同时也包含很多错误（bugs），欢迎下载测试，若发现错误，还请告知，不甚感激。
