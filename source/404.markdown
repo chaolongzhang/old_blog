@@ -5,5 +5,9 @@ comments: false
 ---
 
 <div>
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="http://zh.5long.me" homePageName="回到我的主页（茶码话桑麻）"></script>
+<p>
+      您访问的页面不存在，<a href="http://zh.5long.me">返回主页</a>
+
+</p>
+<iframe scrolling='no' frameborder='0' src='http://yibo.iyiyun.com/Home/Distribute/ad404/key/327137' width='654' height='470' style='display:block;'></iframe>
 </div>
