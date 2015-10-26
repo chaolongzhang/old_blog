@@ -13,11 +13,11 @@ CUDA并行程序设计系列是本人在学习CUDA时整理的资料，内容大
 本系列目录：
 
 *  [【CUDA并行程序设计系列（1）】GPU技术简介](http://zh.5long.me/2015/cuda-parallel-programming-1/)
-*  [【CUDA并行程序设计系列（2）】CUDA简介和环境搭建]()
-*  [【CUDA并行程序设计系列（3）】CUDA线程模型]()
-*  [【CUDA并行程序设计系列（4）】CUDA内存]()
-*  [【CUDA并行程序设计系列（5）】CUDA原子操作与同步]()
-*  [【CUDA并行程序设计系列（6）】CUDA流与多GPU]()
+*  [【CUDA并行程序设计系列（2）】CUDA简介及CUDA初步编程](http://zh.5long.me/2015/cuda-parallel-programming-2/)
+*  [【CUDA并行程序设计系列（3）】CUDA线程模型](http://zh.5long.me/2015/cuda-parallel-programming-3/)
+*  [【CUDA并行程序设计系列（4）】CUDA内存](http://zh.5long.me/2015/cuda-parallel-programming-4/)
+*  [【CUDA并行程序设计系列（5）】CUDA原子操作与同步](http://zh.5long.me/2015/cuda-parallel-programming-4/)
+*  [【CUDA并行程序设计系列（6）】CUDA流与多GPU](http://zh.5long.me/2015/cuda-parallel-programming-5/)
 *  [关于CUDA的一些学习资料](http://zh.5long.me/2015/cuda-learning/)
 
 <!--more-->
