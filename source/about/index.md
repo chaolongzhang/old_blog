@@ -27,7 +27,7 @@ title: 关于我
       由于我是实验室第一个做iOS的，所以iOS一直由我在负责，之后实验室招的iOS方向的学生也是由我来带，我带的第一批有两个学生，其中<a href="http://gorgeousxie.me/#blog" target="_blank">Gorgeous_Xie</a>现在在新加坡做开发。后来又带了些学生，为方便他们学习，我在博客写了<a href="http://zh.5long.me/2015/ios-epilogue/" target="_blank">Ios开发入门教程系列</a>。我一直鼓励大家去学习和理解编程之道，而不要局限于具体的术。
     </p>
     <p>
-      有时也自己做一些有趣的软件，比如大三做了一个分布式网络爬虫，爬取了电影天堂几乎所有的电影链接和京东大部分商品图片；在SAE上搭建了一个读书分享网站<a href="http://www.sheyu.org/" target="_blank">舍予读书</a>，不过已是无人问津；偶然的机会研究过蓝牙4.0，做过蓝牙通信软件（博客<a href="http://zh.5long.me/2015/bluetooth-for-iOS-developer/" target="_blank">iOS开发之蓝牙4.0 BLE开发</a>）；2015年才开始有微博，但自己很少发微博，所以就做了一个<a href="http://zh.5long.me/2015/code-login-sina-weibo-update-weibo/" target="_blank">自动发微博的小程序</a>，代码托管在<a href="https://github.com/zchlong/sinaWeibo" target="_blank">GitHub</a>上，没想到还能有几个Star。
+      有时也自己做一些有趣的软件，比如大三做了一个分布式网络爬虫，爬取了电影天堂几乎所有的电影链接和京东大部分商品图片，后来使用<a href="http://www.mono-project.com/">mono</a>把爬虫（.Net开发）移植到Linux上；在SAE上搭建了一个读书分享网站<a href="http://www.sheyu.org/" target="_blank">舍予读书</a>，不过已是无人问津；偶然的机会研究过蓝牙4.0，做过蓝牙通信软件（博客<a href="http://zh.5long.me/2015/bluetooth-for-iOS-developer/" target="_blank">iOS开发之蓝牙4.0 BLE开发</a>）；2015年才开始有微博，但自己很少发微博，所以就做了一个<a href="http://zh.5long.me/2015/code-login-sina-weibo-update-weibo/" target="_blank">自动发微博的小程序</a>，代码托管在<a href="https://github.com/zchlong/sinaWeibo" target="_blank">GitHub</a>上，没想到还能有几个Star。
     </p>
     <p>
       我喜欢上古时期和早期的计算机经典书籍，自称是计算机考古爱好者，不写代码的时候就读这类图书，前辈的智慧让我受益良多，我喜欢前辈大师们的黑客精神（此处黑客与网络安全无关，而是《黑客与画家》对黑客的解释）与高效，对大师的编程哲学尤为敬佩。通过几年做项目和阅读，我开始对编程有了一些<a href="http://zh.5long.me/2014/paodingjieniu/" target="_blank">体会</a>。
