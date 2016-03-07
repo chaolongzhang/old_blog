@@ -161,7 +161,7 @@ int main(void)
 ```c
 idx = (blockIdx.x * blockDim.x) + threadIdx.x;
 idy = (blockIdx.y * blockDim.y) + threadIdx.y;
-thread_idx = ((gridDim.x * blockDim.y) * idy) + idx;
+thread_idx = ((gridDim.x * blockDim.x) * idy) + idx;
 ```
 
 ##矩阵加法
