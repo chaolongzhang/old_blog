@@ -21,7 +21,7 @@ tags: [C#,VC++]
 Directx:
 
 之前没学过Directx，拿了同学的代码来看，也是雾里看花啊，不过有一点启示了我，在初始化的时候，要传入一个句柄去创建设备（CreateDevice），通常都是传入窗口的设备，我想如果传入一个控件的句柄，那所有的绘画都将在这个控件上实现，因为控件也是继承自Window的。而Winform的控件在底层的实现应该和WIN32是一样的。这样的话只要把Winform的控件的句柄传入C++代码进行初始化，那么绘画的结果将显示在这个控件上。结果一试，还真行。关键代码如下：
-	
+
 ```C++
 extern "C" _declspec(dllexport) HRESULT InitD3D( HWND hWnd );
 
@@ -39,7 +39,7 @@ private void Draw()
             {
                 Render();
             }
-        }
+}
  ```
 
  效果图：
