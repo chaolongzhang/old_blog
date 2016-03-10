@@ -1,6 +1,6 @@
 ---
 layout: post
-category: [程序设计,算法]
+category: [python,程序设计,算法]
 title: 用Python做数学计算之基础计算
 keywords: Python数学计算
 tags: [Python数学计算, math]

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: [python,程序设计]
+category: [python,程序设计,开源]
 title:  Python代码登录新浪微博并自动发微博
 keywords: Python纯代码登录新浪微博并自动发微博，不使用SDK
 tags: [Python,微博]

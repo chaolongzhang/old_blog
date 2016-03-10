@@ -1,6 +1,6 @@
 ---
 layout: post
-category: [程序设计,算法]
+category: [python, 程序设计, 算法]
 title: Python实现k-means算法
 tags: [Python]
 ---

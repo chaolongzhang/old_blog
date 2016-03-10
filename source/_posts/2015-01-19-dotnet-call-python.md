@@ -3,7 +3,7 @@ layout: post
 title: "C#调用Python脚本并使用Python的第三方模块"
 date: 2015-01-19 21:45:31 +0800
 comments: true
-categories: [dotnet,程序设计]
+categories: [dotnet,python,程序设计]
 ---
 
 #前言

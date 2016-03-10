@@ -1,6 +1,6 @@
 ---
 layout: post
-category: 算法
+category: [算法,开源]
 title: 用遗传算法求解TSP问题
 keywords: 遗传算法,TSP问题
 tags: [Python, 遗传算法, TSP]
