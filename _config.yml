@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zh.5long.me
+url: http://blog.5long.me
 root: /
 permalink: /:year/:title/
 permalink_defaults:
@@ -83,7 +83,7 @@ sitemap:
     path: sitemap.xml
 
 addlink:
-  domain: zh.5long.me # the domain of your site
+  domain: blog.5long.me # the domain of your site
   before_text: 本文地址 # text before the post link
   # after_text:  # text after the post link
 

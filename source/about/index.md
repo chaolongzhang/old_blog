@@ -9,6 +9,8 @@ date: 2016-06-13 07:24:47
 
 ## 关于我
 
+![](/assets/images/me/me.jpg)
+
 张朝龙，字行之。本科毕业于<a href="http://www.cuit.edu.cn/" target="_blank"> 成都信息工程学院</a>软件工程学院，目前硕士研究生就读于<a href="http://www.cuit.edu.cn/" target="_blank"> 成都信息工程大学</a>软件工程学院。
 
 早年研究过C语言、.Net和iOS开发，会使用Python做些小工具辅助开发，现在在研究基于CUDA架构的GPU通用编程。对数据结构和算法也有一些了解，看过一些计算机经典图书。
@@ -68,3 +70,10 @@ date: 2016-06-13 07:24:47
 ## 版权申明
 
 本博客文章采用“署名-非商业性使用-禁止演绎”协议，协议详细内容请参考[CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+## 更新记录
+
+*  2016-06-19：修改域名[blog.5long.me](http://blog.5long.me)
+*  2016-06-13：博客从[Octopress](http://octopress.org/)迁移到[Hexo](https://hexo.io/)
+*  2014~2016：先后使用域名[5long.me](http://5long.me)和[zh.5long.me](http://zh.5long.me)
+*  2014-07：博客诞生
