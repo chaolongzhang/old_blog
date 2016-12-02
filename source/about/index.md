@@ -9,23 +9,11 @@ date: 2016-06-13 07:24:47
 
 ## 关于我
 
-![](/assets/images/me/me.jpg)
+![](/assets/images/me/me_2.jpg)
 
 张朝龙，字行之。本科毕业于<a href="http://www.cuit.edu.cn/" target="_blank"> 成都信息工程学院</a>软件工程学院，目前硕士研究生就读于<a href="http://www.cuit.edu.cn/" target="_blank"> 成都信息工程大学</a>软件工程学院。
 
 早年研究过C语言、.Net和iOS开发，会使用Python做些小工具辅助开发，现在在研究基于CUDA架构的GPU通用编程。对数据结构和算法也有一些了解，看过一些计算机经典图书。
-
-大一下期进入实验室，我和实验室其他同学不一样，我并没有很快就进入项目，而是在实验室学习了一年之后才开始做项目。在这一年之中，我认真的研究过C语言并学习了计算机基础知识，同时也学习了.Net以及数据结构。
-
-后来开始做项目，第一个项目是独立完成一个<a href="http://www.softpedia.com/get/Others/Miscellaneous/Data-Feed-Converter.shtml" target="_blank"> Feed格式转换工具</a>（<a href="https://www.youtube.com/watch?v=QjPn1zcUskc" target="_blank">Youtube链接</a>）。
-
-再后来有一个iOS项目，当时实验室还没有做iOS开发人，就让我来开发，关于这段经历，在我的博客中<a href="http://zh.5long.me/2015/learn-mobile-development/" target="_blank">我的移动开发入门之坑</a>提到过。
-
-之后就是混合做.Net和iOS相关的项目，有商业项目和科研项目，有时也帮朋友做点小软件，大大小小项目已有十来个。
-
-由于我是实验室第一个做iOS的，所以iOS一直由我在负责，之后实验室招的iOS方向的学生也是由我来带，我带的第一批有两个学生，其中<a href="http://gorgeousxie.me/#blog" target="_blank">Gorgeous_Xie</a>现在在新加坡做开发。后来又带了些学生，为方便他们学习，我在博客写了<a href="http://zh.5long.me/2015/ios-epilogue/" target="_blank">Ios开发入门教程系列</a>。我一直鼓励大家去学习和理解编程之道，而不要局限于具体的术。
-
-有时也自己做一些有趣的软件，比如大三做了一个分布式网络爬虫，爬取了电影天堂几乎所有的电影链接和京东大部分商品图片，后来使用<a href="http://www.mono-project.com/">mono</a>把爬虫（.Net开发）移植到Linux上；在SAE上搭建了一个读书分享网站<a href="http://www.sheyu.org/" target="_blank">舍予读书</a>，不过已是无人问津；偶然的机会研究过蓝牙4.0，做过蓝牙通信软件（博客<a href="http://zh.5long.me/2015/bluetooth-for-iOS-developer/" target="_blank">iOS开发之蓝牙4.0 BLE开发</a>）；2015年才开始有微博，但自己很少发微博，所以就做了一个<a href="http://zh.5long.me/2015/code-login-sina-weibo-update-weibo/" target="_blank">自动发微博的小程序</a>，代码托管在<a href="https://github.com/zchlong/sinaWeibo" target="_blank">GitHub</a>上，没想到还能有几个Star。
 
 我喜欢上古时期和早期的计算机经典书籍，自称是计算机考古爱好者，不写代码的时候就读这类图书，前辈的智慧让我受益良多，我喜欢前辈大师们的黑客精神（此处黑客与网络安全无关，而是《黑客与画家》对黑客的解释）与高效，对大师的编程哲学尤为敬佩。通过几年做项目和阅读，我开始对编程有了一些<a href="http://zh.5long.me/2014/paodingjieniu/" target="_blank">体会</a>。
 

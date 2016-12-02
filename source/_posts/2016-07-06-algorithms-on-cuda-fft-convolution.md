@@ -284,7 +284,7 @@ thrust::transform(d_a_fft.begin(), d_a_fft.end(), d_b_fft.begin(), d_c_fft.begin
 
 本文首先简要介绍了卷积运算，然后使用Python实现了卷积运行的代码，接着讨论了基于FFT的快速卷积算法，并使用Python实现了FFT卷积，接着对直接卷积和基于FFT的快速卷积算法的性能进行了分析，从实验结果可以看出，FFT卷积相比直接卷积具有更快的运行速度。最后，基于CUDA实现了直接卷积算法，并且使用cuFFT和thrush在CUDA平台实现了基于FFT的快速卷积算法。
 
-本文完整代码可在[Github上下载][1]。
+本文完整代码可在[Github上下载][1]下载。
 
 ## 参考文献
 
