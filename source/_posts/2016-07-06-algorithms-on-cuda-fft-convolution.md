@@ -294,7 +294,7 @@ thrust::transform(d_a_fft.begin(), d_a_fft.end(), d_b_fft.begin(), d_c_fft.begin
 4. NVIDIA.cuFFT.https://developer.nvidia.com/cufft
 5. thrust. https://github.com/thrust/thrust/tree/master/thrust
 
-[1]: https://github.com/zchlong/algorithms-cuda/tree/master/convolve
+[1]: https://github.com/chaolongzhang/algorithms-cuda/tree/master/convolve
 [2]: https://github.com/thrust/thrust/wiki/Quick-Start-Guide#transformations
 [3]: http://docs.nvidia.com/cuda/cufft/index.html
 

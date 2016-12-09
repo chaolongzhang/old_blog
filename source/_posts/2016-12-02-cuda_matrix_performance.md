@@ -57,5 +57,5 @@ tags: [CUDA,GPGPU]
 [4]: http://docs.nvidia.com/cuda/cuda-samples/index.html#matrix-multiplication--cublas-
 [5]: http://numba.pydata.org/
 [6]: http://blog.5long.me/2016/python-cuda/
-[7]: https://github.com/zchlong/algorithms-cuda/tree/master/matrixMul
+[7]: https://github.com/chaolongzhang/algorithms-cuda/tree/master/matrixMul
 

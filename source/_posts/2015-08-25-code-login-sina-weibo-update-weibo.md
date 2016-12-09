@@ -15,7 +15,7 @@ tags: [Python,微博]
 
 于是，就诞生了这个程序，代码使用纯Python实现，没有使用微博SDK，主要是模拟HTTP操作。程序运行后会先登录微博，然后启动一个定时器，每隔一段时间爬取[秒拍][9]、[cnBeta][2]、[博客园][3]、[TechWeb][4]、[推酷][5]最新的内容，再转发到微博。
 
-代码托管在GitHub上，项目地址：<https://github.com/zchlong/sinaWeibo.git>
+代码托管在GitHub上，项目地址：<https://github.com/chaolongzhang/sinaWeibo.git>
 
 试用了几天，效果可以查看我的微博：[@張行之_][1]。
 
@@ -49,7 +49,7 @@ sinaWeibo
 ## 使用
 如果你只想使用该代码来发微博，并不关心代码是怎么实现的，那么你只需要读这一节内容。
 
-1.  下载，项目地址：<https://github.com/zchlong/sinaWeibo.git>。
+1.  下载，项目地址：<https://github.com/chaolongzhang/sinaWeibo.git>。
 2.  修改配置文件`config.py`，把微博账号和密码改为你自己的，还可以设置发送时间（默认是30分钟一次）。
 4.  在`TextFactory.py`可以设置微博内容生成规则，也可以使用默认的规则。
 3.  运行`main.py`，`python main.py`。
@@ -195,7 +195,7 @@ class Spider(object):
 1.  爬虫部分还存在很多冗余，可以进一步优化。
 2.  产生微博内容时可能会生成相同的内容，尤其是目标网站更新频率不高时。
 
-代码托管在码托管在GitHub上，项目地址：<https://github.com/zchlong/sinaWeibo.git>。
+代码托管在码托管在GitHub上，项目地址：<https://github.com/chaolongzhang/sinaWeibo.git>。
 
 
 [1]: http://weibo.com/5longme

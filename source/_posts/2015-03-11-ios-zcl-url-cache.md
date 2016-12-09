@@ -7,7 +7,7 @@ tags: iOS
 ---
 
 ## 前言
-iOS网络资源缓存ZCLURLCache分为上下两篇，主要介绍本人开发的一个开源iOS版网络资源缓存库ZCLURLCache，代码已托管在[GitHub](https://github.com/zchlong/ZCLURLCache.git)，欢迎下载测试，若发现错误，请留言告知，不甚感激。
+iOS网络资源缓存ZCLURLCache分为上下两篇，主要介绍本人开发的一个开源iOS版网络资源缓存库ZCLURLCache，代码已托管在[GitHub](https://github.com/chaolongzhang/ZCLURLCache.git)，欢迎下载测试，若发现错误，请留言告知，不甚感激。
 
 本文介绍本人开发ZCLURLCache的历史原因、ZCLURLCache架构、ZCLURLCache使用方法。若你只打算使用这个组件而不深入了解它，那么看这篇文章就已经足够。
 
@@ -78,7 +78,7 @@ ZCLURLCache分为五个类：
 
 ## ZCLURLCache的使用
 ###获取ZCLURLCache
-代码已托管在GitHub，其中包括一个图片缓存的例子，地址<https://github.com/zchlong/ZCLURLCache.git>
+代码已托管在GitHub，其中包括一个图片缓存的例子，地址<https://github.com/chaolongzhang/ZCLURLCache.git>
 
 ### 获取URL数据
 ZCLURLCache的使用非常简单，步骤如下：

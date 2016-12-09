@@ -655,4 +655,4 @@ single pass template time: 33.0042ms host answer (1048576) = device answer (1048
 3. thrust. <https://github.com/thrust/thrust/tree/master/thrust>
 
 [1]:https://github.com/thrust/thrust/tree/master/thrust
-[2]:https://github.com/zchlong/algorithms-cuda
+[2]:https://github.com/chaolongzhang/algorithms-cuda
