@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: iOS
+date: 2015-08-03 00:00:30
 title: iOS开发之Objective-C(Swift)与JavaScript交互·WebViewJavascriptBridge使用篇
 keywords: Objective-C(Swift)与JavaScript交互，WebViewJavascriptBridge
 tags: iOS
@@ -52,7 +53,7 @@ WebViewJavascriptBridge可应用于`UIWebView`和`WKWebView`。[WKWebView][2]是
 
 ```objective-c
 //webView可以是UIWebView或WKWebView
-self.bridge = [WebViewJavascriptBridge bridgeForWebView:webView handler:^(id data, WVJBResponseCallback responseCallback) 
+self.bridge = [WebViewJavascriptBridge bridgeForWebView:webView handler:^(id data, WVJBResponseCallback responseCallback)
 {
     NSLog(@"Received message from javascript: %@", data);
     responseCallback(@"Right back atcha");

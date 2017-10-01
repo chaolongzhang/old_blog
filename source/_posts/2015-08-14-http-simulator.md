@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: 软件开发
+date: 2015-08-14 00:00:30
 title:  模拟HTTP请求实现网页自动操作及数据采集
 keywords: HTTP请求实现网页自动操作及数据采集
 tags: [C#, HTTP]
@@ -103,7 +104,7 @@ private HttpWebRequest CreateHttpWebRequest(String url)
     {
         request = WebRequest.Create(url) as HttpWebRequest;
     }
-    
+
     return request;
 }
 
@@ -120,7 +121,7 @@ private HttpWebRequest CreateHttpWebRequest(String url)
     {
         request = WebRequest.Create(url) as HttpWebRequest;
     }
-    
+
     return request;
 }
 ```

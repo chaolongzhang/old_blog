@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: 程序设计
+date: 2015-05-03 00:00:30
 title: 用Python做数学计算之基础计算
 keywords: Python数学计算
 tags: [Python数学计算,math]
@@ -68,7 +69,7 @@ Python[官方网站](https://www.python.org/)提供下载，完全免费使用�
 4.5
 >>> a * b
 2
->>> 
+>>>
 ```
 
 ### 除法
@@ -77,9 +78,9 @@ Python[官方网站](https://www.python.org/)提供下载，完全免费使用�
 
 ```python
 >>> 1 / 3			//整型除法，商为0，舍弃小数部分
-0	
+0
 >>> 5 / 2
-2	
+2
 >>> 1.0 / 3			//浮点数除法，保留小数
 0.3333333333333333
 >>> 5.0 / 2.0
@@ -151,7 +152,7 @@ Python有幂运算符`**`。
 2.0
 >>> aComplex.conjugate()		//共轭复数
 (1-2j)
->>> 
+>>>
 ```
 
 **复数的运算**。复数的运算与实数一致。
@@ -240,7 +241,7 @@ Python有一个标准库`math`专门用来做数学运算的。详细介绍可�
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError: factorial() only accepts integral values
->>> 
+>>>
 ```
 
 ### 幂和对数函数（Power and logarithmic functions）
@@ -399,4 +400,3 @@ ValueError: factorial() only accepts integral values
 
 ## 结语
 本文介绍了Python标准库的数学计算方法，通过使用Python标准数学库，可以应付一些日常的基本计算（比如我就很少使用计算器了，一般的计算都用Python解决）。当然，数学是如此的丰富，仅有标准库是远远不够的。将来如果有需要的话，我会研究下使用其它的数学库来进行更复杂的计算以及数学图像的绘制。比如[NumPy](http://www.numpy.org/)、[SciPy](http://www.scipy.org/)、[Matplotlib](http://matplotlib.org/)、[SymPy](http://www.sympy.org/)等。
-

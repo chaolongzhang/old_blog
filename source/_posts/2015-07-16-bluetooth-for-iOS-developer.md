@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: iOS
+date: 2015-07-16 00:00:30
 title: iOS开发之蓝牙4.0 BLE开发
 keywords: iOS开发,蓝牙4.0,BLE
 tags: [iOS, 蓝牙4.0]
@@ -204,5 +205,3 @@ self.centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil]
 
 ## 结语
 本文介绍了开发iOS下蓝牙通信APP的必要知识及开发流程，给出了一个iOS蓝牙通信的框架。关于各个函数的详细说明，还需要查阅官方文档。结合官方文档，相信读者可以开发出一个蓝牙通信的模型来。
-
-

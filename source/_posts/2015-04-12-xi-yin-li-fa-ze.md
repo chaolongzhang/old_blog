@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: 思考
+date: 2015-04-12 00:00:30
 title: 也谈吸引力法则
 keywords: 吸引力法则
 tags: [读书, 吸引力法则]

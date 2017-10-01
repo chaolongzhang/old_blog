@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: 开源
+date: 2015-09-07 00:00:30
 title:  源码阅读:SDWebImage
 keywords: SDWebImage源码阅读
 tags: iOS
@@ -270,7 +271,7 @@ typedef NS_ENUM(NSInteger, SDImageCacheType)
     if ((self = [super init])){
         ···
         _downloadQueue.maxConcurrentOperationCount = 6;
-        
+
         ···
     }
     return self;

@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: 开源
+date: 2015-08-25 00:00:30
 title:  Python代码登录新浪微博并自动发微博
 keywords: Python纯代码登录新浪微博并自动发微博，不使用SDK
 tags: [Python,微博]
@@ -78,7 +79,7 @@ WBCLIENT = 'ssologin.js(v1.4.5)' => WBCLIENT = 'ssologin.js(v1.4.18)'
 ```
 login_url = re.search(r'replace\([\"\']([^\'\"]+)[\"\']', resp.text).group(1)
 改为：
-login_url = re.search('replace\\(\'([^\']+)\'\\)', resp.text).group(1) 
+login_url = re.search('replace\\(\'([^\']+)\'\\)', resp.text).group(1)
 
 login_str = re.match(r'[^{]+({.+?}})', resp.text).group(1)
 改为：
@@ -97,17 +98,17 @@ login_str = login_str = re.search('\((\{.*\})\)', resp.text).group(1)
 Post提交数据：
 
 ```
-"location" : "v6_content_home", 
-"appkey" : "", 
-"style_type" : "1", 
-"pic_id" : "", 
-"text" : 微博内容, 
-"pdetail" : "", 
-"rank" : "0", 
-"rankid" : "", 
-"module" : "stissue", 
-"pub_type" : "dialog", 
-"_t" : "0", 
+"location" : "v6_content_home",
+"appkey" : "",
+"style_type" : "1",
+"pic_id" : "",
+"text" : 微博内容,
+"pdetail" : "",
+"rank" : "0",
+"rankid" : "",
+"module" : "stissue",
+"pub_type" : "dialog",
+"_t" : "0",
 ```
 
 提交数据时需要设置Headers:

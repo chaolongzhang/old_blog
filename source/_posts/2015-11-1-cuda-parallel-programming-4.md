@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: CUDA
+date: 2015-11-01 00:00:30
 title: 【CUDA并行程序设计系列（4）】CUDA内存
 keywords: CUDA,GPGPU,并行程序
 tags: [CUDA,GPGPU]
@@ -242,5 +243,3 @@ GPU的全局内存之所以是全局内存，主要是因为GPU与CPU都可以�
 *  [CUDA C Programming Guide](http://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
 *  [CUDA Toolkit Documentation](http://docs.nvidia.com/cuda/index.html)
 *  R\. Couturier, Ed., Designing Scientific Applications on GPUs, CRC Press, 2013.
-
-

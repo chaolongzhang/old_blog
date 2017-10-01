@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: CUDA
+date: 2015-10-29 00:00:30
 title: 【CUDA并行程序设计系列（3）】CUDA线程模型
 keywords: CUDA,GPGPU,并行程序
 tags: [CUDA,GPGPU]

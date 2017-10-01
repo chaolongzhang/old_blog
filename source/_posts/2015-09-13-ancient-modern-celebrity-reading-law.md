@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: 读书
+date: 2015-09-13 00:00:30
 title: 不是书评：《古今名人读书法》
 keywords: 古今名人读书法
 tags: 读书

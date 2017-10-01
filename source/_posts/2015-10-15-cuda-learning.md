@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: CUDA
+date: 2015-10-15 00:00:30
 title: 关于CUDA的一些学习资料
 keywords: CUDA,GPGPU,并行程序
 tags: [CUDA,GPGPU]
@@ -69,6 +70,3 @@ CUDA作为并行计算架构，通常会和其它并行架构一起配合使用�
 ## 参考文献
 1.  库克. CUDA并行程序设计[M]. 机械工业出版社, 2014.
 2.  仇德元. GPGPU编程技术. 机械工业出版社, 2011.
-
-
-

@@ -7,12 +7,12 @@ title: 茶码话桑麻
 subtitle: 一杯清茶，两行代码，闲谈古今
 description:
 author: 張行之
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.5long.me
+url: http://chaolongzhang.github.io
 root: /
 permalink: /:year/:title/
 permalink_defaults:
@@ -63,14 +63,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: jacman
+theme: next
 stylus:
   compress: true
 
-plugins: 
+plugins:
   hexo-generator-feed
-  hexo-generator-sitemap 
-  hexo-math
+  hexo-generator-sitemap
+  # hexo-math
 
 # Feed Atom
 feed:
@@ -83,7 +83,7 @@ sitemap:
     path: sitemap.xml
 
 addlink:
-  domain: blog.5long.me # the domain of your site
+  domain: chaolongzhang.github.io # the domain of your site
   before_text: 本文地址 # text before the post link
   # after_text:  # text after the post link
 
@@ -91,4 +91,4 @@ addlink:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/taonull/taonull.github.io.git
+  repo: git@github.com:chaolongzhang/chaolongzhang.github.io.git

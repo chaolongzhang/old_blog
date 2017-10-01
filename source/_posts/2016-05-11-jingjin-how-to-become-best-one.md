@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: 思考
+date: 2016-05-11 00:00:30
 title: 不是书评：《精进·如何成为一个很厉害的人》
 keywords: 精进·如何成为一个很厉害的人
 tags: 精进

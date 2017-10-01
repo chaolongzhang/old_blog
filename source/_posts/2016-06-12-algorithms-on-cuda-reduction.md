@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: CUDA并行算法
+date: 2016-06-12 00:00:30
 title: CUDA并行算法系列之规约
 keywords: CUDA,算法,并行程序
 tags: [CUDA, 算法, 规约]

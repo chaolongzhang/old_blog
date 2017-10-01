@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: 程序设计
+date: 2016-03-07 00:00:30
 title:  混合语言编程：启用CLR(公共语言运行时编译)让C#调用C++
 keywords: 混合语言编程
 tags: [C#, VC++]
