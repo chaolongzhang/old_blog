@@ -82,9 +82,9 @@ feed:
 sitemap:
     path: sitemap.xml
 
-addlink:
-  domain: chaolongzhang.github.io # the domain of your site
-  before_text: 本文地址 # text before the post link
+# addlink:
+  # domain: chaolongzhang.github.io # the domain of your site
+  # before_text: 本文地址 # text before the post link
   # after_text:  # text after the post link
 
 # Deployment

@@ -22,6 +22,7 @@ date: 2016-06-13 07:24:47
 ## 联系我
 
 *  me5long#hotmail.com
+*  [GitHub](https://github.com/chaolongzhang)
 *  [微博](http://www.weibo.com/5longme/home)
 *  [豆瓣](http://www.douban.com/people/71231513/)
 
